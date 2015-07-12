@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		317092981B52DE1E000191D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317092971B52DE1E000191D3 /* AppDelegate.swift */; };
+		3170929A1B52DE1E000191D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317092991B52DE1E000191D3 /* ViewController.swift */; };
+		3170929D1B52DE1E000191D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3170929B1B52DE1E000191D3 /* Main.storyboard */; };
+		3170929F1B52DE1E000191D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3170929E1B52DE1E000191D3 /* Assets.xcassets */; };
+		317092A21B52DE1E000191D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317092A01B52DE1E000191D3 /* LaunchScreen.storyboard */; };
+		317092AD1B52DE1E000191D3 /* BuddhasPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317092AC1B52DE1E000191D3 /* BuddhasPlaygroundTests.swift */; };
+		317092B81B52DE1E000191D3 /* BuddhasPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317092B71B52DE1E000191D3 /* BuddhasPlaygroundUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		317092A91B52DE1E000191D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3170928C1B52DE1E000191D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 317092931B52DE1E000191D3;
+			remoteInfo = BuddhasPlayground;
+		};
+		317092B41B52DE1E000191D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3170928C1B52DE1E000191D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 317092931B52DE1E000191D3;
+			remoteInfo = BuddhasPlayground;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		317092941B52DE1E000191D3 /* BuddhasPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddhasPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		317092971B52DE1E000191D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		317092991B52DE1E000191D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3170929C1B52DE1E000191D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3170929E1B52DE1E000191D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		317092A11B52DE1E000191D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		317092A31B52DE1E000191D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		317092A81B52DE1E000191D3 /* BuddhasPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddhasPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		317092AC1B52DE1E000191D3 /* BuddhasPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddhasPlaygroundTests.swift; sourceTree = "<group>"; };
+		317092AE1B52DE1E000191D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		317092B31B52DE1E000191D3 /* BuddhasPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddhasPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		317092B71B52DE1E000191D3 /* BuddhasPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddhasPlaygroundUITests.swift; sourceTree = "<group>"; };
+		317092B91B52DE1E000191D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		317092911B52DE1E000191D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317092A51B52DE1E000191D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317092B01B52DE1E000191D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3170928B1B52DE1E000191D3 = {
+			isa = PBXGroup;
+			children = (
+				317092961B52DE1E000191D3 /* BuddhasPlayground */,
+				317092AB1B52DE1E000191D3 /* BuddhasPlaygroundTests */,
+				317092B61B52DE1E000191D3 /* BuddhasPlaygroundUITests */,
+				317092951B52DE1E000191D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		317092951B52DE1E000191D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				317092941B52DE1E000191D3 /* BuddhasPlayground.app */,
+				317092A81B52DE1E000191D3 /* BuddhasPlaygroundTests.xctest */,
+				317092B31B52DE1E000191D3 /* BuddhasPlaygroundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		317092961B52DE1E000191D3 /* BuddhasPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				317092971B52DE1E000191D3 /* AppDelegate.swift */,
+				317092991B52DE1E000191D3 /* ViewController.swift */,
+				3170929B1B52DE1E000191D3 /* Main.storyboard */,
+				3170929E1B52DE1E000191D3 /* Assets.xcassets */,
+				317092A01B52DE1E000191D3 /* LaunchScreen.storyboard */,
+				317092A31B52DE1E000191D3 /* Info.plist */,
+			);
+			path = BuddhasPlayground;
+			sourceTree = "<group>";
+		};
+		317092AB1B52DE1E000191D3 /* BuddhasPlaygroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				317092AC1B52DE1E000191D3 /* BuddhasPlaygroundTests.swift */,
+				317092AE1B52DE1E000191D3 /* Info.plist */,
+			);
+			path = BuddhasPlaygroundTests;
+			sourceTree = "<group>";
+		};
+		317092B61B52DE1E000191D3 /* BuddhasPlaygroundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				317092B71B52DE1E000191D3 /* BuddhasPlaygroundUITests.swift */,
+				317092B91B52DE1E000191D3 /* Info.plist */,
+			);
+			path = BuddhasPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		317092931B52DE1E000191D3 /* BuddhasPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317092BC1B52DE1E000191D3 /* Build configuration list for PBXNativeTarget "BuddhasPlayground" */;
+			buildPhases = (
+				317092901B52DE1E000191D3 /* Sources */,
+				317092911B52DE1E000191D3 /* Frameworks */,
+				317092921B52DE1E000191D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuddhasPlayground;
+			productName = BuddhasPlayground;
+			productReference = 317092941B52DE1E000191D3 /* BuddhasPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+		317092A71B52DE1E000191D3 /* BuddhasPlaygroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317092BF1B52DE1E000191D3 /* Build configuration list for PBXNativeTarget "BuddhasPlaygroundTests" */;
+			buildPhases = (
+				317092A41B52DE1E000191D3 /* Sources */,
+				317092A51B52DE1E000191D3 /* Frameworks */,
+				317092A61B52DE1E000191D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				317092AA1B52DE1E000191D3 /* PBXTargetDependency */,
+			);
+			name = BuddhasPlaygroundTests;
+			productName = BuddhasPlaygroundTests;
+			productReference = 317092A81B52DE1E000191D3 /* BuddhasPlaygroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		317092B21B52DE1E000191D3 /* BuddhasPlaygroundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 317092C21B52DE1E000191D3 /* Build configuration list for PBXNativeTarget "BuddhasPlaygroundUITests" */;
+			buildPhases = (
+				317092AF1B52DE1E000191D3 /* Sources */,
+				317092B01B52DE1E000191D3 /* Frameworks */,
+				317092B11B52DE1E000191D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				317092B51B52DE1E000191D3 /* PBXTargetDependency */,
+			);
+			name = BuddhasPlaygroundUITests;
+			productName = BuddhasPlaygroundUITests;
+			productReference = 317092B31B52DE1E000191D3 /* BuddhasPlaygroundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3170928C1B52DE1E000191D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "AOTO Systems, Inc.";
+				TargetAttributes = {
+					317092931B52DE1E000191D3 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					317092A71B52DE1E000191D3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 317092931B52DE1E000191D3;
+					};
+					317092B21B52DE1E000191D3 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 317092931B52DE1E000191D3;
+					};
+				};
+			};
+			buildConfigurationList = 3170928F1B52DE1E000191D3 /* Build configuration list for PBXProject "BuddhasPlayground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3170928B1B52DE1E000191D3;
+			productRefGroup = 317092951B52DE1E000191D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				317092931B52DE1E000191D3 /* BuddhasPlayground */,
+				317092A71B52DE1E000191D3 /* BuddhasPlaygroundTests */,
+				317092B21B52DE1E000191D3 /* BuddhasPlaygroundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		317092921B52DE1E000191D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317092A21B52DE1E000191D3 /* LaunchScreen.storyboard in Resources */,
+				3170929F1B52DE1E000191D3 /* Assets.xcassets in Resources */,
+				3170929D1B52DE1E000191D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317092A61B52DE1E000191D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317092B11B52DE1E000191D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		317092901B52DE1E000191D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3170929A1B52DE1E000191D3 /* ViewController.swift in Sources */,
+				317092981B52DE1E000191D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317092A41B52DE1E000191D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317092AD1B52DE1E000191D3 /* BuddhasPlaygroundTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		317092AF1B52DE1E000191D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				317092B81B52DE1E000191D3 /* BuddhasPlaygroundUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		317092AA1B52DE1E000191D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 317092931B52DE1E000191D3 /* BuddhasPlayground */;
+			targetProxy = 317092A91B52DE1E000191D3 /* PBXContainerItemProxy */;
+		};
+		317092B51B52DE1E000191D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 317092931B52DE1E000191D3 /* BuddhasPlayground */;
+			targetProxy = 317092B41B52DE1E000191D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3170929B1B52DE1E000191D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3170929C1B52DE1E000191D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		317092A01B52DE1E000191D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				317092A11B52DE1E000191D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		317092BA1B52DE1E000191D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		317092BB1B52DE1E000191D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		317092BD1B52DE1E000191D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuddhasPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AOTOSystems.BuddhasPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		317092BE1B52DE1E000191D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BuddhasPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AOTOSystems.BuddhasPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		317092C01B52DE1E000191D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuddhasPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AOTOSystems.BuddhasPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddhasPlayground.app/BuddhasPlayground";
+			};
+			name = Debug;
+		};
+		317092C11B52DE1E000191D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BuddhasPlaygroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AOTOSystems.BuddhasPlaygroundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BuddhasPlayground.app/BuddhasPlayground";
+			};
+			name = Release;
+		};
+		317092C31B52DE1E000191D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuddhasPlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AOTOSystems.BuddhasPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuddhasPlayground;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		317092C41B52DE1E000191D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BuddhasPlaygroundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AOTOSystems.BuddhasPlaygroundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BuddhasPlayground;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3170928F1B52DE1E000191D3 /* Build configuration list for PBXProject "BuddhasPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317092BA1B52DE1E000191D3 /* Debug */,
+				317092BB1B52DE1E000191D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		317092BC1B52DE1E000191D3 /* Build configuration list for PBXNativeTarget "BuddhasPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317092BD1B52DE1E000191D3 /* Debug */,
+				317092BE1B52DE1E000191D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		317092BF1B52DE1E000191D3 /* Build configuration list for PBXNativeTarget "BuddhasPlaygroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317092C01B52DE1E000191D3 /* Debug */,
+				317092C11B52DE1E000191D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		317092C21B52DE1E000191D3 /* Build configuration list for PBXNativeTarget "BuddhasPlaygroundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				317092C31B52DE1E000191D3 /* Debug */,
+				317092C41B52DE1E000191D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3170928C1B52DE1E000191D3 /* Project object */;
+}
