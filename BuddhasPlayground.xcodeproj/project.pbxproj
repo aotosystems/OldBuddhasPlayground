@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		313CB28F1B68104500FC8A5C /* BuddhasPlayground-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuddhasPlayground-Bridging-Header.h"; sourceTree = "<group>"; };
 		31405E591B62D61400D953AA /* Buddhas.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Buddhas.playground; sourceTree = "<group>"; };
 		317092941B52DE1E000191D3 /* BuddhasPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddhasPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		317092971B52DE1E000191D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 				317092A01B52DE1E000191D3 /* LaunchScreen.storyboard */,
 				317092A31B52DE1E000191D3 /* Info.plist */,
 				31405E591B62D61400D953AA /* Buddhas.playground */,
+				313CB28F1B68104500FC8A5C /* BuddhasPlayground-Bridging-Header.h */,
 			);
 			path = BuddhasPlayground;
 			sourceTree = "<group>";
@@ -216,6 +218,7 @@
 		3170928C1B52DE1E000191D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "AOTO Systems, Inc.";
 				TargetAttributes = {
@@ -477,6 +480,7 @@
 			baseConfigurationReference = 517430AF16CCD8042A8FFD28 /* Pods-BuddhasPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BuddhasPlayground/Info.plist;
@@ -484,6 +488,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AOTOSystems.BuddhasPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BuddhasPlayground/BuddhasPlayground-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -492,6 +498,7 @@
 			baseConfigurationReference = FA8424B986B5066021E9C6FE /* Pods-BuddhasPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = BuddhasPlayground/Info.plist;
@@ -499,6 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.AOTOSystems.BuddhasPlayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "BuddhasPlayground/BuddhasPlayground-Bridging-Header.h";
 			};
 			name = Release;
 		};
