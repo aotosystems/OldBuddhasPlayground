@@ -14,6 +14,7 @@
 		317092A21B52DE1E000191D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317092A01B52DE1E000191D3 /* LaunchScreen.storyboard */; };
 		317092AD1B52DE1E000191D3 /* BuddhasPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317092AC1B52DE1E000191D3 /* BuddhasPlaygroundTests.swift */; };
 		317092B81B52DE1E000191D3 /* BuddhasPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317092B71B52DE1E000191D3 /* BuddhasPlaygroundUITests.swift */; };
+		83CC02619F3D2E88882369B8 /* Pods_BuddhasPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA10808B956141FCA6DD956 /* Pods_BuddhasPlayground.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31405E591B62D61400D953AA /* Buddhas.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Buddhas.playground; sourceTree = "<group>"; };
 		317092941B52DE1E000191D3 /* BuddhasPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddhasPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		317092971B52DE1E000191D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		317092991B52DE1E000191D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,9 @@
 		317092B31B52DE1E000191D3 /* BuddhasPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddhasPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		317092B71B52DE1E000191D3 /* BuddhasPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddhasPlaygroundUITests.swift; sourceTree = "<group>"; };
 		317092B91B52DE1E000191D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517430AF16CCD8042A8FFD28 /* Pods-BuddhasPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddhasPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BuddhasPlayground/Pods-BuddhasPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		FA8424B986B5066021E9C6FE /* Pods-BuddhasPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddhasPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-BuddhasPlayground/Pods-BuddhasPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		FCA10808B956141FCA6DD956 /* Pods_BuddhasPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BuddhasPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83CC02619F3D2E88882369B8 /* Pods_BuddhasPlayground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,8 @@
 				317092AB1B52DE1E000191D3 /* BuddhasPlaygroundTests */,
 				317092B61B52DE1E000191D3 /* BuddhasPlaygroundUITests */,
 				317092951B52DE1E000191D3 /* Products */,
+				FD3685E7510D571FFF21A6DB /* Pods */,
+				4AAD6DA8F6810A0CE7D9D5D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +111,7 @@
 				3170929E1B52DE1E000191D3 /* Assets.xcassets */,
 				317092A01B52DE1E000191D3 /* LaunchScreen.storyboard */,
 				317092A31B52DE1E000191D3 /* Info.plist */,
+				31405E591B62D61400D953AA /* Buddhas.playground */,
 			);
 			path = BuddhasPlayground;
 			sourceTree = "<group>";
@@ -125,6 +134,23 @@
 			path = BuddhasPlaygroundUITests;
 			sourceTree = "<group>";
 		};
+		4AAD6DA8F6810A0CE7D9D5D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCA10808B956141FCA6DD956 /* Pods_BuddhasPlayground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD3685E7510D571FFF21A6DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				517430AF16CCD8042A8FFD28 /* Pods-BuddhasPlayground.debug.xcconfig */,
+				FA8424B986B5066021E9C6FE /* Pods-BuddhasPlayground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 317092BC1B52DE1E000191D3 /* Build configuration list for PBXNativeTarget "BuddhasPlayground" */;
 			buildPhases = (
+				91626276EDF68D327C488A85 /* Check Pods Manifest.lock */,
 				317092901B52DE1E000191D3 /* Sources */,
 				317092911B52DE1E000191D3 /* Frameworks */,
 				317092921B52DE1E000191D3 /* Resources */,
+				3C28028BEC4F417A8368B6AA /* Embed Pods Frameworks */,
+				86BE741B7CC879176A1D29FE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +279,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C28028BEC4F417A8368B6AA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddhasPlayground/Pods-BuddhasPlayground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86BE741B7CC879176A1D29FE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BuddhasPlayground/Pods-BuddhasPlayground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91626276EDF68D327C488A85 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		317092901B52DE1E000191D3 /* Sources */ = {
@@ -397,6 +474,7 @@
 		};
 		317092BD1B52DE1E000191D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517430AF16CCD8042A8FFD28 /* Pods-BuddhasPlayground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -411,6 +489,7 @@
 		};
 		317092BE1B52DE1E000191D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8424B986B5066021E9C6FE /* Pods-BuddhasPlayground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -490,6 +569,7 @@
 				317092BE1B52DE1E000191D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		317092BF1B52DE1E000191D3 /* Build configuration list for PBXNativeTarget "BuddhasPlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +578,7 @@
 				317092C11B52DE1E000191D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		317092C21B52DE1E000191D3 /* Build configuration list for PBXNativeTarget "BuddhasPlaygroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +587,7 @@
 				317092C41B52DE1E000191D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
