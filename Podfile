@@ -4,6 +4,7 @@ use_frameworks!
 target 'BuddhasPlayground' do
     pod 'FBSDKCoreKit'
     pod 'Parse'
+    pod 'ParseUI'
 end
 
 target 'BuddhasPlaygroundTests' do
