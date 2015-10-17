@@ -14,7 +14,7 @@
 		317092A21B52DE1E000191D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 317092A01B52DE1E000191D3 /* LaunchScreen.storyboard */; };
 		317092AD1B52DE1E000191D3 /* BuddhasPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317092AC1B52DE1E000191D3 /* BuddhasPlaygroundTests.swift */; };
 		317092B81B52DE1E000191D3 /* BuddhasPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317092B71B52DE1E000191D3 /* BuddhasPlaygroundUITests.swift */; };
-		83CC02619F3D2E88882369B8 /* Pods_BuddhasPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA10808B956141FCA6DD956 /* Pods_BuddhasPlayground.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		83CC02619F3D2E88882369B8 /* Pods_BuddhasPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA10808B956141FCA6DD956 /* Pods_BuddhasPlayground.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
