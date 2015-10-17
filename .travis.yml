@@ -1,0 +1,11 @@
+language: objective-c
+
+branches:
+ only:
+ - master
+
+xcode_project: BuddhasPlayground.xcodeproj # path to your xcodeproj folder
+xcode_scheme: BuddhasPlaygroundTests
+osx_image: xcode7
+xcode_sdk: iphonesimulator9.0 
+
