@@ -5,3 +5,6 @@
 #import <Parse/Parse.h>
 #import <ParseUI/ParseUI.h>
 #import <Bolts/BFTask.h>
+
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>

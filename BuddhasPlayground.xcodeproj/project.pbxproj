@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3157C7261BF2B24F0040F006 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3157C7251BF2B24F0040F006 /* LoginViewController.swift */; };
 		317092981B52DE1E000191D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317092971B52DE1E000191D3 /* AppDelegate.swift */; };
 		3170929A1B52DE1E000191D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317092991B52DE1E000191D3 /* ViewController.swift */; };
 		3170929D1B52DE1E000191D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3170929B1B52DE1E000191D3 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		313CB28F1B68104500FC8A5C /* BuddhasPlayground-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuddhasPlayground-Bridging-Header.h"; sourceTree = "<group>"; };
 		31405E591B62D61400D953AA /* Buddhas.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Buddhas.playground; sourceTree = "<group>"; };
+		3157C7251BF2B24F0040F006 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		317092941B52DE1E000191D3 /* BuddhasPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuddhasPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		317092971B52DE1E000191D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		317092991B52DE1E000191D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3157C7241BF2B2160040F006 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3157C7251BF2B24F0040F006 /* LoginViewController.swift */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
 		3170928B1B52DE1E000191D3 = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +116,7 @@
 		317092961B52DE1E000191D3 /* BuddhasPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				3157C7241BF2B2160040F006 /* views */,
 				317092971B52DE1E000191D3 /* AppDelegate.swift */,
 				317092991B52DE1E000191D3 /* ViewController.swift */,
 				3170929B1B52DE1E000191D3 /* Main.storyboard */,
@@ -336,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3157C7261BF2B24F0040F006 /* LoginViewController.swift in Sources */,
 				3170929A1B52DE1E000191D3 /* ViewController.swift in Sources */,
 				317092981B52DE1E000191D3 /* AppDelegate.swift in Sources */,
 			);
